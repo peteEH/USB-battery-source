@@ -1,0 +1,165 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small_US
+#
+DEF Device_R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_PMIC-Voltage-Regulators-Linear_LM317DCYR
+#
+DEF dk_PMIC-Voltage-Regulators-Linear_LM317DCYR U 0 20 Y Y 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "dk_PMIC-Voltage-Regulators-Linear_LM317DCYR" 0 250 60 H V C CNN
+F2 "digikey-footprints:SOT-223-4" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm317" 200 300 60 H I L CNN
+F4 "296-12602-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "LM317DCYR" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm317" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/LM317DCYR/296-12602-1-ND/443738" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LIN POS ADJ 1.5A SOT223-4" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 100 200 -200 0 1 0 f
+X ADJ 1 0 -300 100 U 50 50 1 1 I
+X OUT 2 300 0 100 L 50 50 1 1 w
+X IN 3 -300 0 100 R 50 50 1 1 W
+X OUT 4 300 -100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins_22-23-2021
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_22-23-2021 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_22-23-2021" 50 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" 200 300 60 H I L CNN
+F4 "WM4200-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "22-23-2021" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/molex/22-23-2021/WM4200-ND/26667" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 2POS 2.54MM" 200 1000 60 H I L CNN "Description"
+F11 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_USB-DVI-HDMI-Connectors_690-005-299-043
+#
+DEF dk_USB-DVI-HDMI-Connectors_690-005-299-043 J 0 40 Y Y 1 F N
+F0 "J" 350 1200 60 H V C CNN
+F1 "dk_USB-DVI-HDMI-Connectors_690-005-299-043" 269 586 60 V V C CNN
+F2 "digikey-footprints:USB_Mini_B_Female_690-005-299-043" 200 200 60 H I L CNN
+F3 "http://files.edac.net/690-005-299-043.pdf" 200 300 60 H I L CNN
+F4 "151-1206-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "690-005-299-043" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "USB, DVI, HDMI Connectors" 200 700 60 H I L CNN "Family"
+F8 "http://files.edac.net/690-005-299-043.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/edac-inc/690-005-299-043/151-1206-1-ND/4312192" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN RCPT USB2.0 MINI B SMD R/A" 200 1000 60 H I L CNN "Description"
+F11 "EDAC Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 585 475 495 525 0 1 0 F
+S 585 575 495 625 0 1 0 F
+S 585 675 495 725 0 1 0 F
+S 585 775 495 825 0 1 0 F
+S 585 875 495 925 0 1 0 F
+S 625 420 555 980 0 1 0 N
+S 675 525 625 475 0 1 0 F
+S 675 625 625 575 0 1 0 F
+S 675 725 625 675 0 1 0 F
+S 675 825 625 775 0 1 0 F
+S 675 925 625 875 0 1 0 F
+S 715 377 755 452 0 1 0 N
+S 715 1025 755 950 0 1 0 N
+P 2 0 1 0 425 920 425 480 N
+P 3 0 1 0 425 480 485 420 555 420 N
+P 3 0 1 0 425 920 485 980 555 980 N
+P 10 0 1 0 755 670 755 1125 627 1125 609 1122 599 1117 529 1061 516 1054 500 1050 375 1050 375 625 N
+P 10 0 1 0 755 732 755 277 627 277 609 280 599 285 529 341 516 348 500 352 375 352 375 777 N
+P 16 0 1 0 795 600 795 1140 795 1150 790 1160 780 1165 770 1165 611 1165 591 1162 578 1156 495 1090 360 1090 350 1090 340 1085 335 1075 335 1065 335 625 f
+P 16 0 1 0 795 802 795 262 795 252 790 242 780 237 770 237 611 237 591 240 578 246 495 312 360 312 350 312 340 317 335 327 335 337 335 777 f
+P 18 0 1 0 775 605 775 1120 775 1130 770 1140 760 1145 750 1145 614 1145 600 1143 588 1136 519 1081 504 1072 493 1070 380 1070 370 1070 360 1065 355 1055 355 1045 355 625 N
+P 18 0 1 0 775 797 775 282 775 272 770 262 760 257 750 257 614 257 600 259 588 266 519 321 504 330 493 332 380 332 370 332 360 337 355 347 355 357 355 777 N
+X ~ 1 900 900 105 L 50 50 1 1 P
+X ~ 2 900 800 105 L 50 50 1 1 P
+X ~ 3 900 700 105 L 50 50 1 1 P
+X ~ 4 900 600 105 L 50 50 1 1 P
+X ~ 5 900 500 105 L 50 50 1 1 P
+X ~ SH 400 200 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
